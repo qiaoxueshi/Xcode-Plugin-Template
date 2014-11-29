@@ -4,7 +4,11 @@ Basic template for creating a plugin for Xcode 6+.
 
 ## Installation
 
-- Install using [Alcatraz](alcatraz.io)
+1. Install using [Alcatraz](alcatraz.io)
+2. Install manually
+  * Copy to `~/Library/Developer/Xcode/Templates/Project Templates/Application Plug-in/`.   (Create `Templates/Project Templates/Application Plug-in` the subdirectories if they do not already exist.)
+  * Restart Xcode
+  * When creating a new Xcode plugin, create a new project and select Xcode Plugin from `OS X` > `Application Plug-in`.
 
 ## Usage
 
